@@ -1,16 +1,4 @@
-// export default function About() {
-//     return (
-//         <section id="about" className="about">
-//             <h2>About Me</h2>
-//             <p>
-//                 I specialize in crafting clean, responsive UIs using React, CSS, and modern web
-//                 technologies. I enjoy transforming designs into interactive experiences that delight users.
-//             </p>
-//         </section>
-//     );
-// }
-
-import './About.css';
+import './about.css';
 
 export default function About() {
     return (
