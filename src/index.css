@@ -1,0 +1,142 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  line-height: 1.6;
+  color: #333;
+  font-family: 'Cinzel', serif;
+  background-color: #333;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 13rem;
+  margin: 0;
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  padding: 10px;
+}
+
+header nav ul li {
+  font-size: 2rem;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+  color: #f1d5bf;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+
+.hero {
+  background-color: #f1d5bf;
+  width: 1000px;
+  height: 300px;
+  margin-left: 130px;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-radius: 10px;
+  font-size: 2rem;
+  transition: transform 0.3s ease;
+}
+
+.hero:hover {
+  transform: translateY(-5px);
+}
+
+.hero .hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.125rem;
+  color: #555;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact p {
+  color: #f1d5bf;
+}
+
+.contact-h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #f1d5bf;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.proj-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #f1d5bf;
+  margin-top: 200px;
+}
+
+.work {
+  background-color: #f1d5bf;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.work-grid {
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  text-align: left;
+  padding: 0 1rem;
+}
+
+.work-grid>div {
+  background: #f1d5bf;
+  padding: 1rem;
+  transition: transform 0.2s ease;
+  border-radius: 10px;
+}
+
+.work-grid>div:hover {
+  transform: translateY(-5px);
+}
+
+footer {
+  padding: 1rem;
+  text-align: center;
+  color: #aaa;
+}
