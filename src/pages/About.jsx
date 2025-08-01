@@ -7,7 +7,7 @@ export default function About() {
                 <div className="about-container">
                     <h2>About Me</h2>
                     <p className="about-intro">
-                        I'm <strong>Anuvarshini</strong>, a front-end developer with <strong>4+ years of experience</strong> building scalable, accessible, and user-focused applications using <strong>React.js, JavaScript, Tailwind CSS, and more</strong>. I love transforming ideas into elegant digital experiences and constantly push for clean, performant code.
+                        I'm <strong>Anuvarshini</strong>, a Software Engineer with <strong>4+ years of experience</strong> building scalable, accessible, and user-focused applications using <strong>React.js, JavaScript, Tailwind CSS, and more</strong>. I love transforming ideas into elegant digital experiences and constantly push for clean, performant code.
                     </p>
 
                     <div className="about-highlights">

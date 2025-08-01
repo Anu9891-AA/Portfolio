@@ -3,7 +3,7 @@ export default function Hero() {
         <section className="hero" id="hero">
             <h2>Hi, I’m Anuvarshini.</h2>
             <p>
-                A front-end developer passionate about creating beautiful, responsive interfaces.
+                Software engineer building scalable web applications with modern JavaScript frameworks, cloud services, and intuitive UX—turning ideas into seamless digital experiences.
             </p>
         </section>
     );
