@@ -1,6 +1,6 @@
 export default function Contact() {
     return (
-        <section className="contact">
+        <section className="contact" id="contact">
             <h2 className="contact-h2">Contact Me</h2>
             <p>
                 You can reach out to me via email for any inquiries, collaborations, or just to say hello!

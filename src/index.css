@@ -54,7 +54,7 @@ section {
   background-color: #f1d5bf;
   width: 1000px;
   height: 300px;
-  margin-left: 130px;
+  margin-left: 100px;
   margin-top: 70px;
   display: flex;
   flex-direction: column;
@@ -62,6 +62,7 @@ section {
   border-radius: 10px;
   font-size: 2rem;
   transition: transform 0.3s ease;
+
 }
 
 .hero:hover {

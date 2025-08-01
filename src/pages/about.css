@@ -9,7 +9,9 @@
     padding-top: 20px;
     padding-bottom: 20px;
     margin-left: 80px;
-    border-radius: 10px;
+    border-radius: 20px;
+    border: 8px solid transparent;
+    border-image: linear-gradient(45deg, #991e70, #3298c0, #2c6d57) 1;
 }
 
 .about-container {

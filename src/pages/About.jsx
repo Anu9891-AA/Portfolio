@@ -10,7 +10,7 @@
 //     );
 // }
 
-import './About.css';
+import './about.css';
 
 export default function About() {
     return (
@@ -38,8 +38,7 @@ export default function About() {
                             <h3>Work Experience</h3>
                             <ul>
                                 <li><strong>Patton Labs:</strong> Developed a React app with AWS serverless backend to track the employee performance.</li>
-                                <li><strong>Boostmyshop:</strong> Built React Components and styled it using TailwindCSS. </li>
-                                <li><strong>Zoho Corp:</strong> Handled RestAPI integration.Debugged front-end issues. </li>
+                                <li><strong>Zoho Corp:</strong> Built scalable React components. Developed custom projects for enterprice clients. </li>
                             </ul>
                         </div>
                     </div>
