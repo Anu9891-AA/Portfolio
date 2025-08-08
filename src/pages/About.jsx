@@ -30,17 +30,6 @@ export default function About() {
                             </ul>
                         </div>
                     </div>
-
-                    <div className="resume-button">
-                        <a
-                            href="/Anu-varshini-Resume.pdf"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            View Resume
-                        </a>
-
-                    </div>
                 </div>
             </div>
         </section>

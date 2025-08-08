@@ -1,6 +1,6 @@
 export default function Projects() {
     return (
-        <section className="projects" id="projects">
+        <section className="projects">
             <h2 className="proj-title">My Projects</h2>
             <div className="work-grid">
                 <div>
